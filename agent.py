@@ -67,7 +67,7 @@ class agent(AbstractAgent):
 		""" Loads model and classifies test data locally """
 
 		response = self.model.predict(prompt, typeof)
-		self.helpers.logger.info(response["answers"][0])
+		self.helpers.logger.info(response)
 
 	def signal_handler(self, signal, frame):
 		self.helpers.logger.info("Disconnecting")
