@@ -31,7 +31,7 @@ The **GPT-3 Leukemia Information Assistant** is an open-source **proof of concep
 
 # DISCLAIMER
 
-This project is a proof of concept and demonstrates a possible medical use case for GPT-3.
+This project is a **proof of concept** and has been designed to demonstrate a **possible** medical use case for GPT-3. It is currently against OpenAI's [use case guidelines](https://beta.openai.com/docs/use-case-guidelines/faq) to create a production application that is intended to provide medical advice.
 
 **This project is not to be used to provide medical information in the real world.**
 

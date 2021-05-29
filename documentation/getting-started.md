@@ -145,6 +145,11 @@ python3 client.py "What is Acute Myeloid Leukemia?"
 
 &nbsp;
 
+# Article
+In the following weeks I will be working with our medical advisor [Rita Silva](https://www.leukemiaairesearch.com/association/volunteers/rita-silva-md-phd "Rita Silva") to write an article based on this project. We will discuss the accuracy of GPT-3 and whether or not it may have potential in it's current state to be used for medical advice. Please note that at this moment it is currently against OpenAI's [use case guidelines](https://beta.openai.com/docs/use-case-guidelines/faq) to create a production application that is intended to provide medical advice.
+
+&nbsp;
+
 # Contributing
 
 The Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research project encourages and youlcomes code contributions, bug fixes and enhancements from the Github.
