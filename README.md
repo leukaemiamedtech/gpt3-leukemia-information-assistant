@@ -1,7 +1,7 @@
-# Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss
+# Peter Moss MedTech Research Project
 ## GPT-3 Leukemia Information Assistant
 
-![GPT-3 Leukemia Information AssistantGPT-3 Leukemia Information Assistant](assets/images/gpt-3-leukemia-assistant.jpg)
+![GPT-3 Leukemia Information AssistantGPT-3 Leukemia Information Assistant](assets/images/project-banner.jpg)
 
 [![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-1.0.0-blue.svg)](https://github.com/AIIAL/GPT-3-Leukemia-Information-Assistant/tree/1.0.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-2.0.0-blue.svg)](https://github.com/AIIAL/GPT-3-Leukemia-Information-Assistant/tree/2.0.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 
@@ -49,7 +49,7 @@ The motivation for this project is to see how GPT-3 could be used as a potential
 
 Leukemia is a blood cancer characterized by a rapid production of abnormal white blood cells called blasts.  In 2020, almost 500,000 new patients were diagnosed with leukemia all over the world and approximately 312,000 individuals died with this disease. In the United States, there are over 60,000 new cases every year, and over 24,000 patients die from leukemia annually.
 
-For more information about Leukemia please visit our [Leukemia Information Page](https://www.leukemiaairesearch.com/research/leukemia)
+For more information about Leukemia please visit our [Leukemia Information Page](https://www.leukaemiamedtechresearch.org.uk/leukaemia/)
 
 &nbsp;
 
@@ -68,25 +68,26 @@ Ready to get started ? Head over to the [Getting Started guide](documentation/ge
 &nbsp;
 
 # Contributing
-The Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss encourages and welcomes code contributions, bug fixes and enhancements from the Github community.
+Peter Moss Leukaemia MedTech Research CIC encourages and welcomes code contributions, bug fixes and enhancements from the Github community.
 
-Please read the [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") document for a full guide to forking our repositories and submitting your pull requests. You will also find information about our code of conduct on this page.
+Please read the [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide for a full guide to contributing to our AI Agent projects. You will also find our code of conduct in the [CODE OF CONDUCT](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CODE-OF-CONDUCT.md) document.
 
 ## Contributors
-- [Adam Milton-Barker](https://www.leukemiaairesearch.com/association/volunteers/adam-milton-barker "Adam Milton-Barker") - [Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss") President/Founder & Lead Developer, Sabadell, Spain
-- [Dr Rita Rb-Silva](https://www.leukemiaairesearch.com/association/volunteers/rita-silva-md-phd "Dr Rita Rb-Silva") - [Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss") Medical Advisor (Hematology), Porto, Portugal
+- [Adam Milton-Barker](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/adam-milton-barker "Adam Milton-Barker") - [Peter Moss Leukaemia MedTech Research CIC](https://www.leukaemiamedtechresearch.org.uk "Peter Moss Leukaemia MedTech Research CIC") Founder & Managing Director.
+
+- [Dr Rita Rb-Silva](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/rita-silva-md-phd "Dr Rita Rb-Silva") - [Peter Moss Leukaemia MedTech Research CIC](https://www.leukaemiamedtechresearch.org.uk "Peter Moss Leukaemia MedTech Research CIC") Medical Advisor (Hematology), Porto, Portugal
 
 &nbsp;
 
 # Versioning
-We use SemVer for versioning.
+We use [SemVer](https://semver.org/) for versioning.
 
 &nbsp;
 
 # License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE "LICENSE") file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/leukaemiamedtech/hias-all-jetson-nano-classifier/blob/main/LICENSE "LICENSE") file for details.
 
 &nbsp;
 
 # Bugs/Issues
-We use the [repo issues](issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.
+We use the [repo issues](https://github.com/leukaemiamedtech/hias-all-jetson-nano-classifier/issues/new/choose "repo issues") to track bugs and general requests related to using this project. See [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide for more info on how to submit bugs, feature requests and proposals.

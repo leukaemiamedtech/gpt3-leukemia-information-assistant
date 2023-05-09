@@ -1,8 +1,8 @@
-# Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss
+# Peter Moss MedTech Research Project
 ## GPT-3 Leukemia Information Assistant
 ### Ubuntu Installation
 
-![GPT-3 Leukemia Information Assistant](../../assets/images/gpt-3-leukemia-assistant.jpg)
+![GPT-3 Leukemia Information AssistantGPT-3 Leukemia Information Assistant](../../assets/images/project-banner.jpg)
 
 &nbsp;
 
@@ -12,9 +12,6 @@
 - [Prerequisites](#prerequisites)
 	- [Anaconda](#anaconda)
 - [Installation](#installation)
-	- [Intel® Optimization for TensorFlow](#intel-optimization-for-tensorflow)
-	- [Clone The Repository](#clone-the-repository)
-		- [Developer Forks](#developer-forks)
 	- [Setup File](#setup-file)
 - [HIAS](#hias)
 	- [AI Model](#ai-model)
@@ -36,32 +33,22 @@ You will need to ensure you have the following prerequisites installed and setup
 If you haven't already installed Anaconda you will need to install it now. Follow the [Anaconda installation guide](https://docs.anaconda.com/anaconda/install/ "Anaconda installation guide") to do so.
 
 ## HIAS Server
-For this project you will need a functioning [HIAS Server](https://github.com/AIIAL/HIAS). To install the HIAS Server, follow the [HIAS Server Installation Guide](https://github.com/AIIAL/HIAS/blob/master/Documentation/Installation/Installation.md)
+For this project you will need a functioning [HIAS Server](https://github.com/leukaemiamedtech/hias-core). To install the HIAS Server, follow the [HIAS Server Installation Guide](https://github.com/leukaemiamedtech/hias-core/blob/master/docs/installation/ubuntu.md)
 
 # Installation
 You are now ready to install the GPT-3 Leukemia Information Assistant software.
 
-## Intel® Optimization for TensorFlow
-Now you will install the Intel® Optimization for TensorFlow using Anaconda.
-
-```
-conda create -n all-tfmkl python=3
-conda activate all-tfmkl
-conda install tensorflow -c anaconda
-conda deactivate
-```
-
 ## Clone the repository
 
-Clone the [GPT-3 Leukemia Information Assistant](https://github.com/AIIAL/GPT-3-Leukemia-Information-Assistant " GPT-3 Leukemia Information Assistant") repository from the [Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project](https://github.com/AIIAL "Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss") Github Organization.
+Clone the [GPT-3 Leukemia Information Assistant](https://github.com/leukaemiamedtech/gpt3-leukemia-information-assistant " GPT-3 Leukemia Information Assistant") repository from the [Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project](https://github.com/leukaemiamedtech "Peter moss Leukaemia MedTech Research CIC") Github Organization.
 
 To clone the repository and install the OneAPI Acute Lymphoblastic Leukemia Classifier Classifier, make sure you have Git installed. Now navigate to the a directory on your device using commandline, and then use the following command.
 
 ```
- git clone https://github.com/AIIAL/GPT-3-Leukemia-Information-Assistant.git
+ git clone https://github.com/leukaemiamedtech/gpt3-leukemia-information-assistant.git
 ```
 
-Once you have used the command above you will see a directory called **GPT-3-Leukemia-Information-Assistant** in your home directory.
+Once you have used the command above you will see a directory called **gpt3-leukemia-information-assistant** in your home directory.
 
 ```
  ls
@@ -70,20 +57,14 @@ Once you have used the command above you will see a directory called **GPT-3-Leu
 Using the ls command in your home directory should show you the following.
 
 ```
- GPT-3-Leukemia-Information-Assistant
+ gpt3-leukemia-information-assistant
 ```
 
-Navigate to the **GPT-3-Leukemia-Information-Assistant** directory, this is your project root directory for this tutorial.
+Navigate to the **gpt3-leukemia-information-assistant** directory, this is your project root directory for this tutorial.
 
-### Developer Forks
+## Developer forks
 
-Developers from the Github community that would like to contribute to the development of this project should first create a fork, and clone that repository. For detailed information please view the [CONTRIBUTING](../../CONTRIBUTING.md "CONTRIBUTING") guide. You should pull the latest code from the development branch.
-
-```
- git clone -b "2.0.0" https://github.com/AIIAL/GPT-3-Leukemia-Information-Assistant.git
-```
-
-The **-b "2.0.0"** parameter ensures you get the code from the latest master branch. Before using the below command please check our latest master branch in the button at the top of the project README.
+If you wish to contribute to this project please follow the [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide.
 
 ## Setup File
 
@@ -144,38 +125,31 @@ Click on the **Agent Credentials** section to download the credentials file. Thi
 &nbsp;
 
 # Continue
-When you are ready to continue, activate your Anaconda environment:
-```
- conda activate all-tfmkl
-```
 Now you can continue with the GPT-3 Leukemia Information Assistant [getting started guide](../getting-started.md)
 
 &nbsp;
 
 # Contributing
+Peter Moss Leukaemia MedTech Research CIC encourages and welcomes code contributions, bug fixes and enhancements from the Github community.
 
-The Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research project encourages and youlcomes code contributions, bug fixes and enhancements from the Github.
-
-Please read the [CONTRIBUTING](../../CONTRIBUTING.md "CONTRIBUTING") document for a full guide to forking our repositories and submitting your pull requests. You will also find information about our code of conduct on this page.
+Please read the [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide for a full guide to contributing to our AI Agent projects. You will also find our code of conduct in the [CODE OF CONDUCT](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CODE-OF-CONDUCT.md) document.
 
 ## Contributors
+- [Adam Milton-Barker](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/adam-milton-barker "Adam Milton-Barker") - [Peter Moss Leukaemia MedTech Research CIC](https://www.leukaemiamedtechresearch.org.uk "Peter Moss Leukaemia MedTech Research CIC") Founder & Managing Director.
 
-- [Adam Milton-Barker](https://www.leukemiaresearchassociation.ai/team/adam-milton-barker "Adam Milton-Barker") - [Asociacion De Investigacion En Inteligencia Artificial Para La Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociacion De Investigacion En Inteligencia Artificial Para La Leucemia Peter Moss") President/Founder & Lead Developer, Sabadell, Spain
+- [Dr Rita Rb-Silva](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/rita-silva-md-phd "Dr Rita Rb-Silva") - [Peter Moss Leukaemia MedTech Research CIC](https://www.leukaemiamedtechresearch.org.uk "Peter Moss Leukaemia MedTech Research CIC") Medical Advisor (Hematology), Porto, Portugal
 
 &nbsp;
 
 # Versioning
-
-You use SemVer for versioning. For the versions available, see [Releases](../../releases "Releases").
+We use [SemVer](https://semver.org/) for versioning.
 
 &nbsp;
 
 # License
-
-This project is licensed under the **MIT License** - see the [LICENSE](../../LICENSE "LICENSE") file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/leukaemiamedtech/hias-all-jetson-nano-classifier/blob/main/LICENSE "LICENSE") file for details.
 
 &nbsp;
 
 # Bugs/Issues
-
-You use the [repo issues](../../issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](../../CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.
+We use the [repo issues](https://github.com/leukaemiamedtech/hias-all-jetson-nano-classifier/issues/new/choose "repo issues") to track bugs and general requests related to using this project. See [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide for more info on how to submit bugs, feature requests and proposals.

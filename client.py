@@ -5,8 +5,7 @@ Sends data to the HIAS AI Agent server.
 
 MIT License
 
-Copyright (c) 2021 Asociación de Investigacion en Inteligencia Artificial
-Para la Leucemia Peter Moss
+Copyright (c) 2023 Peter Moss Leukaemia MedTech Research CIC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files(the "Software"), to deal
@@ -41,35 +40,35 @@ from modules.helpers import helpers
 
 
 class client():
-	""" HIAS AI Agent Client
+    """ HIAS AI Agent Client
 
-	Sends data to the HIAS AI Agent server.
-	"""
+    Sends data to the HIAS AI Agent server.
+    """
 
-	def __init__(self):
-		""" Initializes the class. """
+    def __init__(self):
+        """ Initializes the class. """
 
-		self.helpers = helpers("Client")
+        self.helpers = helpers("Client")
 
-		self.apiUrl = "http://" + self.helpers.credentials["server"]["ip"] + ":" + str(
-			self.helpers.credentials["server"]["port"]) + "/Inference"
-		self.headers = {"content-type": 'application/json'}
+        self.apiUrl = "http://" + self.helpers.credentials["server"]["ip"] + ":" + str(
+            self.helpers.credentials["server"]["port"]) + "/Inference"
+        self.headers = {"content-type": 'application/json'}
 
-		self.helpers.logger.info("Client ready")
+        self.helpers.logger.info("Client ready")
 
-	def call(self, data):
-		""" Initializes the class. """
+    def call(self, data):
+        """ Initializes the class. """
 
-		self.helpers.logger.info("Sending string for classification...")
-		response = requests.post(self.apiUrl, data=json.dumps(data),
-									headers=self.headers)
-		client.helpers.logger.info("Response: "+str(response.text))
+        self.helpers.logger.info("Sending string for classification...")
+        response = requests.post(self.apiUrl, data=json.dumps(data),
+                                 headers=self.headers)
+        client.helpers.logger.info("Response: "+str(response.text))
 
 if __name__ == "__main__":
 
-	if len(sys.argv) < 1:
-		print("You must provide an argument")
-		exit()
+    if len(sys.argv) < 1:
+        print("You must provide an argument")
+        exit()
 
-	client = client()
-	client.call({"query": str(sys.argv[1])})
+    client = client()
+    client.call({"query": str(sys.argv[1])})

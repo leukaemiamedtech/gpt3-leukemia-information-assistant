@@ -1,8 +1,8 @@
-# Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss
+# Peter Moss MedTech Research Project
 ## GPT-3 Leukemia Information Assistant
 ### Getting Started
 
-![GPT-3 Leukemia Information Assistant](../assets/images/gpt-3-leukemia-assistant.jpg)
+![GPT-3 Leukemia Information AssistantGPT-3 Leukemia Information Assistant](../assets/images/project-banner.jpg)
 
 &nbsp;
 
@@ -146,34 +146,31 @@ python3 client.py "What is Acute Myeloid Leukemia?"
 &nbsp;
 
 # Article
-In the following weeks I will be working with our medical advisor [Rita Silva](https://www.leukemiaairesearch.com/association/volunteers/rita-silva-md-phd "Rita Silva") to write an article based on this project. We will discuss the accuracy of GPT-3 and whether or not it may have potential in it's current state to be used for medical advice. Please note that at this moment it is currently against OpenAI's [use case guidelines](https://beta.openai.com/docs/use-case-guidelines/faq) to create a production application that is intended to provide medical advice.
+In the following weeks I will be working with our medical advisor [Rita Silva](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/rita-silva-md-phd "Rita Silva") to write an article based on this project. We will discuss the accuracy of GPT-3 and whether or not it may have potential in it's current state to be used for medical advice. Please note that at this moment it is currently against OpenAI's [use case guidelines](https://beta.openai.com/docs/use-case-guidelines/faq) to create a production application that is intended to provide medical advice.
 
 &nbsp;
 
 # Contributing
+Peter Moss Leukaemia MedTech Research CIC encourages and welcomes code contributions, bug fixes and enhancements from the Github community.
 
-The Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research project encourages and youlcomes code contributions, bug fixes and enhancements from the Github.
-
-Please read the [CONTRIBUTING](../CONTRIBUTING.md "CONTRIBUTING") document for a full guide to forking our repositories and submitting your pull requests. You will also find information about our code of conduct on this page.
+Please read the [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide for a full guide to contributing to our AI Agent projects. You will also find our code of conduct in the [CODE OF CONDUCT](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CODE-OF-CONDUCT.md) document.
 
 ## Contributors
+- [Adam Milton-Barker](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/adam-milton-barker "Adam Milton-Barker") - [Peter Moss Leukaemia MedTech Research CIC](https://www.leukaemiamedtechresearch.org.uk "Peter Moss Leukaemia MedTech Research CIC") Founder & Managing Director.
 
-- [Adam Milton-Barker](https://www.leukemiaresearchassociation.ai/team/adam-milton-barker "Adam Milton-Barker") - [Asociacion De Investigacion En Inteligencia Artificial Para La Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociacion De Investigacion En Inteligencia Artificial Para La Leucemia Peter Moss") President/Founder & Lead Developer, Sabadell, Spain
+- [Dr Rita Rb-Silva](https://www.leukaemiamedtechresearch.org.uk/about/volunteers/rita-silva-md-phd "Dr Rita Rb-Silva") - [Peter Moss Leukaemia MedTech Research CIC](https://www.leukaemiamedtechresearch.org.uk "Peter Moss Leukaemia MedTech Research CIC") Medical Advisor (Hematology), Porto, Portugal
 
 &nbsp;
 
 # Versioning
-
-You use SemVer for versioning. For the versions available, see [Releases](../releases "Releases").
+We use [SemVer](https://semver.org/) for versioning.
 
 &nbsp;
 
 # License
-
-This project is licensed under the **MIT License** - see the [LICENSE](../LICENSE "LICENSE") file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/leukaemiamedtech/hias-all-jetson-nano-classifier/blob/main/LICENSE "LICENSE") file for details.
 
 &nbsp;
 
 # Bugs/Issues
-
-You use the [repo issues](../issues "repo issues") to track bugs and general requests related to using this project. See [CONTRIBUTING](../CONTRIBUTING.md "CONTRIBUTING") for more info on how to submit bugs, feature requests and proposals.
+We use the [repo issues](https://github.com/leukaemiamedtech/hias-all-jetson-nano-classifier/issues/new/choose "repo issues") to track bugs and general requests related to using this project. See [AI AGENT CONTRIBUTING](https://github.com/leukaemiamedtech/contributing-guides/blob/main/CONTRIBUTING-GUIDE-AI-AGENTS.md "AI AGENT CONTRIBUTING") guide for more info on how to submit bugs, feature requests and proposals.

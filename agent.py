@@ -6,8 +6,7 @@ with HIAS IoT Agents using the MQTT protocol.
 
 MIT License
 
-Copyright (c) 2021 Asociación de Investigacion en Inteligencia Artificial
-Para la Leucemia Peter Moss
+Copyright (c) 2023 Peter Moss Leukaemia MedTech Research CIC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files(the "Software"), to deal
@@ -44,35 +43,35 @@ from modules.model import model
 
 
 class agent(AbstractAgent):
-	""" OpenAI Leukemia Information Assistant HIAS AI Agent
+    """ OpenAI Leukemia Information Assistant HIAS AI Agent
 
-	Represents a HIAS AI Agent that processes data
-	using the OpenAI Leukemia Information Assistant.
-	"""
+    Represents a HIAS AI Agent that processes data
+    using the OpenAI Leukemia Information Assistant.
+    """
 
-	def set_model(self):
+    def set_model(self):
 
-		self.model = model(self.helpers)
+        self.model = model(self.helpers)
 
-	def server(self):
-		""" Loads the API server """
+    def server(self):
+        """ Loads the API server """
 
-		self.mqtt_start()
+        self.mqtt_start()
 
-		self.set_model()
-		self.server = server(self.helpers, self.model, self.model_type, self.mqtt)
-		self.server.start()
+        self.set_model()
+        self.server = server(self.helpers, self.model, self.model_type, self.mqtt)
+        self.server.start()
 
-	def inference(self, prompt, typeof):
-		""" Loads model and classifies test data locally """
+    def inference(self, prompt, typeof):
+        """ Loads model and classifies test data locally """
 
-		response = self.model.predict(prompt, typeof)
-		self.helpers.logger.info(response)
+        response = self.model.predict(prompt, typeof)
+        self.helpers.logger.info(response)
 
-	def signal_handler(self, signal, frame):
-		self.helpers.logger.info("Disconnecting")
-		self.mqtt.disconnect()
-		sys.exit(1)
+    def signal_handler(self, signal, frame):
+        self.helpers.logger.info("Disconnecting")
+        self.mqtt.disconnect()
+        sys.exit(1)
 
 
 agent = agent()
@@ -80,33 +79,33 @@ agent = agent()
 
 def main():
 
-	if len(sys.argv) < 2:
-		agent.helpers.logger.error("You must provide an argument")
-		exit()
-	elif sys.argv[1] not in agent.helpers.confs["agent"]["params"]:
-		agent.helpers.logger.error("Mode not supported! server, answer or completion")
-		exit()
+    if len(sys.argv) < 2:
+        agent.helpers.logger.error("You must provide an argument")
+        exit()
+    elif sys.argv[1] not in agent.helpers.confs["agent"]["params"]:
+        agent.helpers.logger.error("Mode not supported! server, answer or completion")
+        exit()
 
-	mode = sys.argv[1]
+    mode = sys.argv[1]
 
-	if mode == "answer":
-		if len(sys.argv) < 3:
-			agent.helpers.logger.error("You must provide an input")
-			exit()
-		agent.set_model()
-		agent.inference(sys.argv[2], "answer")
+    if mode == "answer":
+        if len(sys.argv) < 3:
+            agent.helpers.logger.error("You must provide an input")
+            exit()
+        agent.set_model()
+        agent.inference(sys.argv[2], "answer")
 
-	elif mode == "completion":
-		if len(sys.argv) < 3:
-			agent.helpers.logger.error("You must provide an input")
-			exit()
-		agent.set_model()
-		agent.inference(sys.argv[2], "completion")
+    elif mode == "completion":
+        if len(sys.argv) < 3:
+            agent.helpers.logger.error("You must provide an input")
+            exit()
+        agent.set_model()
+        agent.inference(sys.argv[2], "completion")
 
-	elif mode == "server":
-		agent.set_model()
-		agent.server()
+    elif mode == "server":
+        agent.set_model()
+        agent.server()
 
 
 if __name__ == "__main__":
-	main()
+    main()
